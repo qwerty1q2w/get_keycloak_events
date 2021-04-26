@@ -39,7 +39,7 @@ def get_keycloak_events(token):
             if int(message['time']) > int(last_count):
                 f = open("counter.txt", "w")
                 log.write(str(json.dumps(message)) + '\n')
-                print(message)
+#                print(message)
                 f.write(str(message['time']))
                 f.close()
         log.close()
