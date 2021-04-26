@@ -1,0 +1,8 @@
+[urls]
+token_url = https://1q2w3e/auth/realms/master/protocol/openid-connect/token
+events_url = https://1q2w3e/auth/admin/realms/test/events?max=1000
+admin_events_url =  https://1q2w3e/auth/admin/realms/test/admin-events?max=1000
+
+[creds]
+user = log
+password = password
